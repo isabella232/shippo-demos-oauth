@@ -1,10 +1,10 @@
-# shippo-demos-oauth
+# Shippo oAuth Demo
 
-## What is Oauth?
+## What is oAuth?
 
-## How does Shippo Oauth works?
+## How does Shippo oAuth works?
 
-## Oauth demos in multiple languages
+## oAuth demos in multiple languages
 
 #### Javascript 
 https://github.com/goshippo/shippo-demos-oauth/tree/main/javascript
