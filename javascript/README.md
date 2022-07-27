@@ -23,21 +23,30 @@ For this demo you can use this callback URL:  `http://localhost:8080/oauth/callb
 To clone the repository, run the following command:
 
 ```bash
-    $ git clone url 
-    $ cd reponame
+    $ git clone https://github.com/goshippo/shippo-demos-oauth.git 
+    $ cd shippo-demos-oauth/javascript
     $ yarn install   (or npm install)
          
 ```
 
-## Modify the config file
+## Modify the configuration to run the demo
 
 Copy content of .sample.env to .env
 
 ```bash
-    $ cp .sample.env .env
+    $ cp  .sample.env .env
     $ nano .env
 ```
 Place your Client ID and Client Secret in the .env file.
+
+In ``public/index.html`` you will need to replace ```<CLIENT_ID>``` with your ClientID here:
+```
+<script>
+    // PLACE YOUR SHIPPO CLIENT_ID HERE
+    const client_id = '<CLIENT_ID>';
+    ...
+</script>
+```
 
 
 ## Run the Demo
@@ -45,7 +54,7 @@ Place your Client ID and Client Secret in the .env file.
 ```bash
 $ yarn start (or npm start)
 ```
-```
+
 
 Visit `http://localhost:8080` in your browser, and
 click the button - `Login with Shippo Credentials` to connect your Shippo account.
