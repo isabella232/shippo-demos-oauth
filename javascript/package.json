@@ -1,0 +1,21 @@
+{
+  "name": "shippo-oauth-demo",
+  "version": "1.0.0",
+  "description": "Demo Shippo OAuth flow using NodeJS",
+  "main": "index.js",
+  "repository": "",
+  "author": "Vyshakh",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^8.2.0",
+    "koa": "^2.7.0",
+    "koa-route": "^3.2.0",
+    "koa-static": "^5.0.0",
+    "shippo": "^1.7.1"
+  }
+}
