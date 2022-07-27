@@ -9,8 +9,7 @@ Please reach out to partnerships@goshippo.com with the following information:
 
 * **Company’s Name** : This is presented to the user during the OAuth flow when they connect their Shippo account to
   your platform
-* **Callback URL** : The URL vendors are redirected to after they connect their Shippo account. This is your site URL
-  followed by /shippo-oauth-redirect/
+* **Callback URL** : The URL vendors are redirected to after they connect their Shippo account. 
 * **Contact Email** : Your email address
 * **Brief description of use case**
 
