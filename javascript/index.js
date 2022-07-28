@@ -21,6 +21,11 @@ const oauth = async ctx => {
     const requestToken = ctx.request.query.code;
     console.log('authorization code:', requestToken);
 
+    if(!clientID || !clientSecret) {
+        console.log('clientID or clientSecret is missing. Please set the CLIENT_ID and CLIENT_SECRET environment variables.');
+        return;
+    }
+
     //get the access token by exchanging the authorization code
     const response = await axios.post('https://goshippo.com/oauth/access_token', {
         client_id: clientID,

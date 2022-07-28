@@ -51,7 +51,11 @@
 
 <script>
     // PLACE YOUR SHIPPO CLIENT_ID HERE
-    const client_id = '<CLIENT_ID>';
+    const client_id = ''//<-- Replace with your Shippo Client ID
+
+    if(!client_id) {
+        console.error('Please set your Shippo Client ID in the index.html')
+    }
 
     const authorize_uri = 'https://goshippo.com/oauth/authorize';
     const redirect_uri = 'http://localhost:8080/oauth/callback';
