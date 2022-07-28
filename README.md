@@ -22,6 +22,7 @@ Your application should warn users they will be asked to authorize using their S
 Remember, your application must be registered with the API to generate the client Client ID, Client Secret and redirection URL used in the authorization code flow.
 
 ## How does Shippo oAuth works?
+
 ![](Oauth Flow Shippo.jpg)
 
 ## Screenshots
