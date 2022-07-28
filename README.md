@@ -1,4 +1,4 @@
-# Shippo oAuth Demo
+# Shippo OAuth Demo
 
 ## What is OAuth?
 
