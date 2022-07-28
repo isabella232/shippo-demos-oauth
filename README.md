@@ -23,7 +23,7 @@ Remember, your application must be registered with the API to generate the clien
 
 ## How does Shippo oAuth works?
 
-![](Oauth Flow Shippo.jpg)
+![](Oauth_Flow_Shippo.jpg)
 
 ## Screenshots
 
