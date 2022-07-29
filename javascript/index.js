@@ -12,7 +12,8 @@ const app = new Koa();
 //get client id and secret from .env file
 const clientID = process.env.CLIENT_ID;
 const clientSecret = process.env.CLIENT_SECRET;
-
+console.log('opening port 8080... \n');
+console.log('Open your browser and go to http://localhost:8080');
 //serve the index.html file
 const main = serve(path.join(__dirname + '/public'));
 
